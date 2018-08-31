@@ -1,2 +1,13 @@
 Char是8位字符类型 一个char8个字节 最多包含256种字符
 
+据存储是以“字节”（Byte）为单位，数据传输大多是以“位”（bit，又名“比特”）为单位，一个位就代表一个0或1（即二进制），每8个位（bit，简写为b）组成一个字节（Byte，简写为B），是最小一级的信息单位。
+
+/**************
+When you enter a number, the compiler only sees its binary equivant as that is one of the first things to be turned into code.
+
+Example, lets say I write the number "13". The compiler will recognize that as: 0000 1101 in binary. 
+
+If I write the number 015 the compiler will recognize that as octal and will see it as 0000 1101 in binary. 
+
+If I write the number 0xd, the compiler will recognize that as hex and will see it as 0000 1101. 
+***************/
